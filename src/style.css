@@ -101,7 +101,7 @@ p {
 }
 
 nav {
-  background: rgb(235, 174, 6);
+  background: rgb(64, 147, 196);
   position: fixed;
   top: 0;
   left: 0;
@@ -124,13 +124,13 @@ nav {
 }
 
 .nav-header h2 {
-  color: var(--color-black);
+  color: orange;
   font-size: 1rem;
 }
 
 .nav-toggle {
   font-size: 1.5rem;
-  color: #2980b9;
+  color: #dadee0;
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
@@ -144,7 +144,7 @@ nav {
 .logo {
   width: 25%;
   padding: 0.6rem;
-  border: 1px solid indigo;
+  border: 1px solid rgb(201, 196, 204);
   border-radius: 50%;
   transition: var(--transition);
 }
@@ -154,7 +154,7 @@ nav {
 }
 
 .links a {
-  color: var(--background-clr);
+  color: rgba(233, 230, 230, 0.945);
   font-size: 1.2rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -205,7 +205,7 @@ nav {
   padding-bottom: 1rem;
   background: var(--color-white);
   border-radius: 0.8rem;
-  border: 5px solid rgb(235, 174, 6);
+  border: 5px solid rgb(150, 92, 5);
   position: relative;
   overflow: hidden;
 }
@@ -463,7 +463,7 @@ textarea::placeholder {
 /* FOOTER SECTION */
 
 .footer {
-  background: rgb(235, 174, 6);
+  background: rgb(36, 92, 138);
 }
 
 .footer-container {
@@ -477,12 +477,17 @@ textarea::placeholder {
 
 .footer-container .footer-logo img {
   font-size: 18px;
-  width: 100px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: transparent;
+  padding: 4rem 0;
 }
 
 .footer-content p {
   font-weight: 400;
   font-size: 16px;
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -533,7 +538,6 @@ textarea::placeholder {
 
   .footer-container {
     padding: 0.5rem 2rem;
-    border: 0.5px solid rgb(163, 160, 160);
   }
 }
 
